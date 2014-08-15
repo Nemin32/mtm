@@ -18,9 +18,20 @@ action =
 
 function(pos)
 	randomnum = math.random(0,1)
+	randomSword = math.random(0,4)
+	Swordname = ""
+	
+	if randomSword == 0 then Swordname = "standing_sword:stone_sword"
+		elseif randomSword == 1 then Swordname = "standing_sword:bronze_sword"
+		elseif randomSword == 2 then Swordname = "standing_sword:steel_sword"
+		elseif randomSword == 3 then Swordname = "standing_sword:mese_sword"
+		elseif randomSword == 4 then Swordname = "standing_sword:diamond_sword"
+	end
+	
 	if randomnum == 1 then
 		pos.y = pos.y+1
-		minetest.set_node(pos, {name = "standing_sword:stone_sword"})
+
+		minetest.set_node(pos, {name = Swordname})
 		pos.y = pos.y-1
 	end
 	
