@@ -10,3 +10,15 @@ minetest.register_tool("wartest:frostmuorne", {
 		damage_groups = {fleshy=10}
 	}
 })
+
+
+
+minetest.register_craft({
+	output = "wartest:frostmuorne",
+	recipe = {
+	    {"","default:diamondblock",""},
+	    {"default:diamondblock","default:diamondblock","default:diamondblock"},
+        {"default:mese","default:stick","default:mese"}
+    }
+   }
+  )
