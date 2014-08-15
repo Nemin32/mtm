@@ -14,6 +14,7 @@ groups={choppy=1,dig_immediate=1,igniter=3},light_source=14
 
 )
 
+<<<<<<< HEAD
 minetest.register_craft({
 output = "testblock:lamp",
 recipe = {
@@ -22,6 +23,9 @@ recipe = {
 {"default:wood","default:wood","default:wood"}
 }
 })
+=======
+
+>>>>>>> 4c916e953689b9cc6603e5821f025f6b54c133ba
 
 
 minetest.register_craft({
@@ -32,6 +36,7 @@ recipe = {
 {"","",""},
 }
 
+<<<<<<< HEAD
 })
 
 minetest.register_abm({
@@ -53,3 +58,6 @@ function(pos)
 	end
 end
 })
+=======
+})
+>>>>>>> 4c916e953689b9cc6603e5821f025f6b54c133ba
