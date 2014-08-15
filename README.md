@@ -1,7 +1,8 @@
-mtm
+Myne-Test mods
 ===
 
 My and my friends random minetest mods
+Some intense **** here.
 
 Inside:
 - Testblock: A lamp and an XD block.
